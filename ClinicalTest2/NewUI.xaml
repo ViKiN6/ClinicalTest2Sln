@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClinicalTest2.NewUI"
+             Title="NewUI">
+    <VerticalStackLayout>
+        <!--<Button
+        x:Name="TestBtn"
+          HorizontalOptions="CenterAndExpand"
+          VerticalOptions="CenterAndExpand"
+          HeightRequest="80"
+          WidthRequest="80"
+          IsEnabled="True"
+            Clicked="TestBtn_Clicked"
+         />-->
+    </VerticalStackLayout>
+</ContentPage>

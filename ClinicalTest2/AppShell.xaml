@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ClinicalTest2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ClinicalTest2.Pages"
+    Shell.FlyoutBehavior="Disabled"
+    Title="">
+    <ShellContent ContentTemplate="{DataTemplate local:StartPage}" Route="StartPage"/>
+    
+    
+    
+    <TabBar>
+
+        <Tab Title="Home" >
+
+            <ShellContent ContentTemplate="{DataTemplate local:Home}" Route="Home"/>
+
+
+        </Tab>
+
+
+        <Tab Title="Forums">
+
+            <ShellContent ContentTemplate="{DataTemplate local:Forums}" Route="Forums"/>
+
+
+        </Tab>
+
+
+        <Tab Title="Chat">
+
+            <ShellContent ContentTemplate="{DataTemplate local:Chat}" Route="Chat"/>
+
+
+        </Tab>
+
+    </TabBar>
+
+</Shell>
